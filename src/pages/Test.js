@@ -1,10 +1,9 @@
 import React from 'react';
+import Menu from '../components/Menu';
 
 const Test = () => {
     return (
-        <div>
-            <h2>Test</h2>
-        </div>
+        <Menu/>
     );
 };
 
