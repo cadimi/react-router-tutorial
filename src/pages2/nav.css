@@ -1,33 +1,87 @@
-/*body {margin:0;}*/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+nav{
+    overflow:hidden;
     background-color: #333;
     position: fixed;
     top: 0;
     width: 100%;
     text-align:center;
 }
-
-li {
-    display:inline-block;
+nav div{
+    display:inline;
+}
+.area-center .menu li{
+    display:inline;
+    padding: 0;
+    padding-top:none;
+}
+.menu ul{
+    list-style:none;
+    padding-left:0;
 }
 
-li a {
-    display: block;
+a{
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+.area-right{
+    float: left;
+    width: 25%;
+    line-height:45px;
+    text-align: right;
+}
+
+.area-center{
+    float: left; width: 50%;
+    text-align: center;
+}
+.area-left{
+    float: left;
+    width: 25%;
+    line-height:50px;
+    text-align: left;
+}
+.area-left img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 li a:hover:not(.active) {
     background-color: #111;
 }
-
 .active {
     background-color: #4CAF50;
 }
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -1px;
+    left: -1px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #888888;
+}
+
+#dev:checked:after{
+    background-color: #00ff04;
+}
+#stg:checked:after{
+    background-color: #0021ff;
+}
+#prod:checked:after{
+    background-color: #ff0000;
+}
+
+input[type='radio']{
+    margin-top: 22px;
+}
+#prod{
+    margin-right: 20px;
+}
+

@@ -1,16 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+// import queryString from 'query-string';
 import './iframe.css';
 
-class Google extends Component {
-    render() {
-        // const iframe = '<iframe src="https://www.example.com/show?data..." width="540" height="450"></iframe>';
-        return (
-            <div className="iframeClass">
-                {/*<div dangerouslySetInnerHTML={ iframe } />*/}
-                <iframe src="https://www.google.com"/>
-            </div>
-        );
-    }
-}
+const Google = ({match}) => {
+    // const query = queryString.parse(location.search);
+    // console.log(query);
+    return (
+        <div className="iframeClass">
+            <iframe src={`https://${match.params.url}`}/>
+        </div>
+    );
+};
 
 export default Google;
