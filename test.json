@@ -1,0 +1,47 @@
+{
+  "adress1": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress2": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress3": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress4": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress5": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress6": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress7": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress8": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  },
+  "adress9": {
+    "dev": "www.google.com",
+    "stg": "www.google.com",
+    "prod": "www.google.com"
+  }
+}
